@@ -1,5 +1,5 @@
 # azcode
-Docker starter project for Azure Cloud ["AZ"].
+Terraform starter project for Azure Cloud ["AZ"].
 
 <!-- TOC -->
 
@@ -37,6 +37,7 @@ Docker starter project for Azure Cloud ["AZ"].
           +- 002/                     <-- Store a TF state file in AZ storage (depends on 001)
           +- 003/                     <-- Create a virtual network (depends on 001)
           +- 004/                     <-- Create a network security group (depends on 001)
+          +- 005/                     <-- Create a virtual machine (no dependency)
 
 ---
 ## Installation
