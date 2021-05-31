@@ -34,7 +34,9 @@ Docker starter project for Azure Cloud ["AZ"].
        +- tf/                         <-- Terraform root folder
           +- 001/                     <-- Minimal Terraform project
              |- main.tf               <-- Main TF file (required)
-          +- 002/                     <-- Terraform state file in AZ storage project
+          +- 002/                     <-- Store a TF state file in AZ storage (depends on 001)
+          +- 003/                     <-- Create a virtual network (depends on 001)
+          +- 004/                     <-- Create a network security group (depends on 001)
 
 ---
 ## Installation
