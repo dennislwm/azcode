@@ -38,6 +38,8 @@ Terraform starter project for Azure Cloud ["AZ"].
           +- 003/                     <-- Create a virtual network (depends on 001)
           +- 004/                     <-- Create a network security group (depends on 001)
           +- 005/                     <-- Create a virtual machine (no dependency)
+          +- 006/                     <-- Create a managed app service (no dependency)
+          +- 007/                     <-- Create a managed MySql Database (no dependency)
 
 ---
 ## Installation
